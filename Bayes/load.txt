@@ -1,0 +1,9 @@
+.separator ","
+.import train.csv Cars
+update Cars set Color = null where Color = 'NULL';
+update Cars set Transmission = null where Transmission = 'NULL';
+update Cars set WheelTypeID = null where WheelTypeID = 'NULL';
+update Cars set WheelType = null where WheelType = 'NULL';
+update Cars set Nationality = null where Nationality = 'NULL';
+update Cars set VehSize = null where VehSize = 'NULL';
+update Cars set TopThreeAmericanName = null where TopThreeAmericanName = 'NULL';

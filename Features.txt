@@ -1,0 +1,15 @@
+Field Name				Definition
+RefID				    Unique (sequential) number assigned to vehicles
+IsBadBuy				Identifies if the kicked vehicle was an avoidable purchase 
+VehYear					The manufacturer's year of the vehicle
+VehicleAge				The Years elapsed since the manufacturer's year
+Make					Vehicle Manufacturer 
+Color					Vehicle Color
+Transmission			Vehicles transmission type (Automatic, Manual)
+WheelTypeID				The type id of the vehicle wheel
+WheelType				The vehicle wheel type description (Alloy, Covers)
+Nationality				The Manufacturer's country
+VehSize					The size category of the vehicle (Compact, SUV, etc.)
+TopThreeAmericanName	Identifies if the manufacturer is one of the top three American manufacturers
+VNST                    State where the the car was purchased
+IsOnlineSale			Identifies if the vehicle was originally purchased online
